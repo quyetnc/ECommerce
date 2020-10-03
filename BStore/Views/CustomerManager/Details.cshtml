@@ -1,0 +1,56 @@
+﻿@model BStore.Models.KhachHang
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-6 offset-3" style="background-color:white">
+    <h1>Thông Tin Khách Hàng</h1>
+    <hr />
+    <dl class="row" style="color:black">
+        <dt class="col-sm-4">
+            Tên khách hàng
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.TenKhachHang)
+        </dd>
+        <dt class="col-sm-4">
+            Email
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-4">
+            Địa chỉ
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.DiaChi)
+        </dd>
+        <dt class="col-sm-4">
+            Số điện thoại
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.SoDt)
+        </dd>
+        <dt class="col-sm-4">
+            Mã tỉnh thành
+        </dt>
+        <dd class="col-sm-8">
+            @Model.MaTinhThanh
+        </dd>
+        <dt class="col-sm-4">
+        </dt>
+        <dd class="col-sm-8">
+        </dd>
+        <dt class="col-sm-4">
+            <a asp-action="Edit" asp-route-id="@Model.MaKhachHang"><input type="button" class="btn btn-primary" value="Edit" /></a>
+        </dt>
+        <dd class="col-sm-8">
+            <a asp-action="Index"><input type="button" class="btn btn-primary" value="Back" /></a>
+        </dd>
+    </dl>
+</div>
+

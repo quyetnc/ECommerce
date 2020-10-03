@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Layout/Login/Layout.cshtml";
+}
+<form class="splash-container" asp-action="SignUp" asp-controller="Login" method="post" enctype="multipart/form-data" id="signUpForm">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="mb-1">Registrations Form</h3>
+            <p>Please enter your user information.</p>
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+
+
+                    @if (ViewBag.AccExist != null)
+                    {
+
+                        <small style="color: red" class="form-text">Tên tài khoản đã tồn tại</small>
+                    }
+                </div>
+                <table class="table">
+                    <tr>
+                        <td>
+                            <label class="control-label">Username</label>
+                        </td>
+                        <td>
+                            <input class="au-input au-input--full" type="text" name="username" placeholder="Nhập tên tài khoản..." autocomplete="new-password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="control-label">Password</label>
+                        </td>
+                        <td>
+                            <input class="au-input au-input--full" type="password" name="password" placeholder="Nhập mật khẩu...">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="control-label">Email</label>
+                        </td>
+                        <td>
+                            <input class="au-input au-input--full" type="email" name="email" placeholder="Nhập email...">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="control-label">Ảnh đại diện</label>
+                        </td>
+                        <td>
+                            <input class="form-control-file" type="file" name="avatar" onchange="previewImg(this,'preview_img')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img id="preview_img" src="/images/product/no-preview.jpg" width="100" height="100" style="left: 30px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <button class="btn btn-primary" type="submit">Đăng Ký </button></td>
+                    </tr>
+                </table>
+
+
+                <script>
+    function previewImg(input, id_string) {
+                        var exp_string = "#";
+                        exp_string += id_string;
+                        if (input.files && input.files[0]) {
+                            var reader = new FileReader();
+
+                            reader.onload = function (e) {
+                                $(exp_string).attr('src', e.target.result);
+                            }
+
+                            reader.readAsDataURL(input.files[0]);
+                        }
+                    }</script>
+               
+            </form>
+        </div>
+        <div class="card-footer bg-white">
+            <p>Already member?    <a asp-controller="Login" asp-action="Index">Login Here</a></p>
+        </div>
+    </div>
+</form>

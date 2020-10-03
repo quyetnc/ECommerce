@@ -1,0 +1,74 @@
+﻿@model IEnumerable<BStore.Models.KhachHang>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-sm-4">
+    <h1>Danh Sách Khách Hàng</h1>
+    <a asp-action="Create"><i class="fas fa-plus-square" style="font-size:40px"></i></a>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        @*<h5 class="card-header">Danh Sách User</h5>*@
+        <div class="card-body p-0">
+            <table class="table" border="1">
+                <thead style="background-color:wheat">
+                    <tr>
+                        <th>
+                            Mã khách hàng
+                        </th>
+                        <th>
+                            Tên khách hàng
+                        </th>
+                        <th>
+                            Mã tài khoản
+                        </th>
+                        <th>
+                            Số điện thoại
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            Địa chỉ
+                        </th>
+                        <th>
+                            Mã tỉnh thành
+                        </th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody style="background-color:white;color:black">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.MaKhachHang</td>
+                            <td>@item.TenKhachHang</td>
+                            <td>@item.MaTaiKhoan</td>
+                            <td>@item.SoDt</td>
+                            <td>@item.Email</td>
+                            <td>@item.DiaChi</td>
+                            <td>@item.MaTinhThanh</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.MaKhachHang">
+                                    <i class="fas fa-edit"></i>
+                                </a>|
+                                <a asp-action="Details" asp-route-id="@item.MaKhachHang">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+</div>
+</div>
+</div>
+            <br />
+            <br />
+            <br />
+            <br />

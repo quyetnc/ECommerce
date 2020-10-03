@@ -1,0 +1,307 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/User/Layout.cshtml";
+}
+
+<!-- MAIN-CONTENT-SECTION START -->
+<section class="main-content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <!-- BSTORE-BREADCRUMB START -->
+                <div class="bstore-breadcrumb">
+                    <a href="index.html">HOME</a>
+                    <span><i class="fa fa-caret-right"></i></span>
+                    <span>Products</span>
+                </div>
+                <!-- BSTORE-BREADCRUMB END -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <!-- PRODUCT-LEFT-SIDEBAR START -->
+                <div class="product-left-sidebar">
+                    <h2 class="left-title pro-g-page-title">Catalog</h2>
+
+                    <!-- SINGLE SIDEBAR CATEGORIES START -->
+                    <div class="product-single-sidebar">
+                        <span class="sidebar-title">Categories</span>
+                        <ul id="category">
+                            @{
+                                foreach (var item in ViewBag.ListCate)
+                                {
+                                    <li>
+                                        <label class="cheker">
+                                            <input type="checkbox" name="categories" />
+                                            <span></span>
+                                        </label>
+                                        <a data-url="@item.MaLoai">@item.TenLoai<span></span></a>
+                                    </li>
+                                }
+                            }
+
+                        </ul>
+                    </div>
+                    <!-- SINGLE SIDEBAR CATEGORIES END -->
+                    <!-- SINGLE SIDEBAR AVAILABILITY START -->
+                    <div class="product-single-sidebar">
+                        <span class="sidebar-title">Brands</span>
+                        <ul id="brand">
+                            @{
+                                foreach (var item in ViewBag.ListBrand)
+                                {
+                                    <li>
+                                        <label class="cheker">
+                                            <input type="checkbox" name="brands" />
+                                            <span></span>
+                                        </label>
+                                        <a data-url="@item.MaTH">@item.TenTH<span></span></a>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <!-- SINGLE SIDEBAR AVAILABILITY END -->
+                    <!-- SINGLE SIDEBAR CONDITION START -->
+                  
+
+                </div>
+                <!-- PRODUCT-LEFT-SIDEBAR END -->
+
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="right-all-product">
+                    <!-- PRODUCT-CATEGORY-HEADER START -->
+                    <!-- PRODUCT-CATEGORY-HEADER END -->
+                    <div class="product-category-title">
+                        <!-- PRODUCT-CATEGORY-TITLE START -->
+                        <h1>
+                            <span class="cat-name">Our Products</span>
+                        
+                        </h1>
+                        <!-- PRODUCT-CATEGORY-TITLE END -->
+                    </div>
+
+                    <!---Search-->
+                    <div class="active-pink-3 active-pink-4 mb-4">
+                        <input class="form-control" name="txtSearch" id="txtSearch" type="text" placeholder="Bạn muốn tìm gì?" aria-label="Search">
+                    </div>
+
+                    <script>
+                        // AJAX call for autocomplete
+                        $(document).ready(function () {
+                            $(".form-control").keyup(function () {
+                                var key = $(this).val();
+                                //alert(key);
+                                $.ajax({
+                                    type: "POST",
+                                    url: "/menu/Search?key=" + key,
+                                    success: function (data) {
+                                        $("#result").html(data);
+                                    }
+                                });
+                            });
+                        });
+
+                    </script>
+                    <!---End Search-->
+                    <div class="product-shooting-area">
+                        <div class="product-shooting-bar">
+                            <!-- SHOORT-BY START -->
+                            <div class="shoort-by">
+                                <label for="productShort">Sort by</label>
+                                <div class="short-select-option">
+                                    <select class="sortby">
+                                        <option value="Default" selected>
+                                            Default
+                                        </option>
+                                        <option value="Name">
+                                            Name
+                                        </option>
+                                        <option value="Price">
+                                            Price
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                $(document).ready(function () {
+                                    $('select.sortby').change(function (e) {
+                                        var value = $(this).children("option:selected").val();
+                                        //alert(value);
+                                        $.ajax({
+                                            type: "POST",
+                                            url: '/Menu/sortby?value=' + value,
+                                            success: function (result) {
+                                                //alert(result);
+                                                $("#result").html(result);
+                                            }
+                                        });
+                                        // var selectedCountry = $(this).children("option:selected").val();
+                                        //  alert("You have selected the country - " + selectedCountry);
+                                    });
+                                });
+                            </script>
+                            <!-- SHOORT-BY END -->
+                            <!-- SHOW-PAGE START -->
+              
+
+                            <div class="showing-next-prev">
+                                <ul class="pagination-bar">
+                                    <li class="disabled">
+                                        <a id="btnGiam"><i class="fa fa-chevron-left"></i></a>
+                                    </li>
+                                    <li>
+                                        <a><input type="text" name="trang" id="trang" value="1" style="width:50px;height:25px; text-align:center"></a>
+                                    </li>
+                                    <li>
+                                        <a id="btnTang"><i class="fa fa-chevron-right"></i></a>
+                                    </li>
+                                </ul>
+                                @*<form action="#">
+                                        <button class="btn showall-button">Show all</button>
+                                    </form>*@
+                            </div>
+                      
+                            <!-- SHOW-PAGE END -->
+                            <!-- VIEW-SYSTEAM START -->
+                           
+                            <!-- VIEW-SYSTEAM END -->
+                        </div>
+                        <!-- PRODUCT-SHOOTING-RESULT START -->
+                        
+                        <!-- PRODUCT-SHOOTING-RESULT END -->
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#btnGiam').click(function (e) {
+                            var status = 0;
+                            //alert("btnGiam");
+                            var page = $('#trang').val();
+                            var kq = Number(page) - 1;
+                            //alert(page);
+                            $.ajax({
+                                type: "POST",
+                                url: 'menu/GetProductByPage?page=' + page + '&status=' + status,
+                                success: function (result) {
+                                    $("#result").html(result);
+                                    $("#trang").val(kq);
+                                }
+                            });
+                        });
+
+                        $('#btnTang').click(function (e) {
+                            //alert("btnGiam");
+                            var status = 1;
+                            var page = $('#trang').val();
+                            var kq = Number(page) + 1;
+                            //$("#trang").val(kq);
+                            //alert(page);
+                            $.ajax({
+                                type: "POST",
+                                url: 'menu/GetProductByPage?page=' + page + '&status=' + status,
+                                success: function (result) {
+                                    $("#result").html(result);
+                                    $("#trang").val(kq);
+                                }
+                            });
+                        });
+                    });
+                </script>
+
+                <!-- ALL GATEGORY-PRODUCT START -->
+                <div class="all-gategory-product" id="result">
+                    <div class="row">
+                        <ul class="gategory-product">
+                            @{
+                                foreach (var item in ViewBag.ListProduct)
+                                {
+                                    <!-- SINGLE ITEM START -->
+                                    <li class="gategory-product-list col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                        <div class="single-product-item">
+                                            <div class="product-image">
+                                                <a href="single-product.html"><img src="~/user/products/@item.HinhAnh" alt="product-image" style="width:225px ; height:225px" /></a>
+
+                                                @{
+                                                    if (item.KhuyenMai != 0)
+                                                    {
+                                                        <a href="single-product.html" class="new-mark-box">Sale - @item.KhuyenMai %</a>
+                                                    }
+                                                }
+                                                <div class="overlay-content">
+                                                    <ul>
+                                                        <li><a asp-controller="InfomationProduct" asp-action="Index" asp-route-id="@item.MaThucDon"><button><i class="fa fa-search"></i></button></a></li>
+
+                                                        <li class="order-button"><a><button type="button" title="Quick view" data-id="@item.MaThucDon"><i class="fa fa-shopping-cart"></i></button></a></li>
+                                                        @*<li><a href="#" title="Quick view"><i class="fa fa-retweet"></i></a></li>
+                <li><a href="#" title="Quick view"><i class="fa fa-heart-o"></i></a></li>*@
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="product-info">
+                                                <div class="customar-comments-box">
+                                                 
+                                                </div>
+                                                <a href="single-product.html">@item.TenThucDon</a>
+                                                <div class="price-box">
+                                                    <span class="price">@String.Concat(string.Format("{0:N0}", @item.GetGiaKhuyenMai), "Đ")</span>
+
+                                                    @{
+                                                        if (item.KhuyenMai != 0)
+                                                        {
+                                                            <span class="old-price">@String.Concat(string.Format("{0:N0}", @item.Gia), "Đ")</span>
+                                                        }
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- SINGLE ITEM END -->
+                                }
+                            }
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- ALL GATEGORY-PRODUCT END -->
+                <!-- PRODUCT-SHOOTING-RESULT START -->
+                @*<div class="product-shooting-result product-shooting-result-border">
+                    <form action="#">
+                        <button class="btn compare-button">
+                            Compare (<strong class="compare-value">1</strong>)
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </form>
+                    <div class="showing-item">
+                        <span>Showing 1 - 12 of 13 items</span>
+                    </div>
+                    <div class="showing-next-prev">
+                        <ul class="pagination-bar">
+                            <li class="disabled">
+                                <a href="#"><i class="fa fa-chevron-left"></i>Previous</a>
+                            </li>
+                            <li class="active">
+                                <span><a class="pagi-num" href="#">1</a></span>
+                            </li>
+                            <li>
+                                <span><a class="pagi-num" href="#">2</a></span>
+                            </li>
+                            <li>
+                                <a href="#">Next<i class="fa fa-chevron-right"></i></a>
+                            </li>
+                        </ul>
+                        <form action="#">
+                            <button class="btn showall-button">Show all</button>
+                        </form>
+                    </div>
+                </div>*@
+                <!-- PRODUCT-SHOOTING-RESULT END -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- MAIN-CONTENT-SECTION END -->

@@ -1,0 +1,284 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/User/Layout.cshtml";
+}
+
+    <section class="main-content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- BSTORE-BREADCRUMB START -->
+                    <div class="bstore-breadcrumb">
+                        <a href="index.html">HOMe<span><i class="fa fa-caret-right"></i> </span> </a>
+                        <span> <i class="fa fa-caret-right"> </i> </span>
+                        <a href="shop-gird.html"> PRODUCTS </a>
+                        <span style="text-align:center"> @ViewBag.ThucDon.TenThucDon </span>
+                    </div>
+                    <!-- BSTORE-BREADCRUMB END -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <!-- SINGLE-PRODUCT-DESCRIPTION START -->
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-4 col-xs-12">
+                            <div class="single-product-view">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="thumbnail_1">
+                                        <div class="single-product-image">
+                                            <img src="~/user/products/@ViewBag.ThucDon.HinhAnh" alt="single-product-image" />
+                                            <a class="new-mark-box" href="#">new</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="select-product">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs select-product-tab bxslider">
+                                    <li class="active">
+                                        <a href="#thumbnail_1" data-toggle="tab"><img src="~/user/products/@ViewBag.ThucDon.HinhAnh" alt="pro-thumbnail" /></a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12" style="text-align:center">
+                            <div class="single-product-descirption">
+                                <h2 style="text-align:center">@ViewBag.ThucDon.TenThucDon</h2>
+                                @*<div class="single-product-social-share">
+                                    <ul>
+                                        <li><a href="#" class="twi-link"><i class="fa fa-twitter"></i>Tweet</a></li>
+                                        <li><a href="#" class="fb-link"><i class="fa fa-facebook"></i>Share</a></li>
+                                        <li><a href="#" class="g-plus-link"><i class="fa fa-google-plus"></i>Google+</a></li>
+                                        <li><a href="#" class="pin-link"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+                                    </ul>
+                                </div>*@
+                                <div class="single-product-review-box">
+                                    
+                                    @*<div class="read-reviews">
+                                        <a href="#">Read reviews (1)</a>
+                                    </div>
+                                    <div class="write-review">
+                                        <a href="#">Write a review</a>
+                                    </div>*@
+                                </div>
+                                <hr />
+                                <table class="table">
+                                    <thead>
+                                        <tr >
+                                            <th style="text-align:center" scope="col">Thông Tin</th>
+                                            <th style="text-align:center" scope="col">Sản Phẩm</thstyle="text-align:center">
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td>Loại Sản Phẩm</td>
+                                            <td>@ViewBag.ThucDon.TenLoai</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thương Hiệu</td>
+                                            <td>@ViewBag.ThucDon.TenThuongHieu</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Độ Cồn Bia</td>
+                                            <td>@ViewBag.ThucDon.NongDo %</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dung Tích</td>
+                                            <td>@ViewBag.ThucDon.DungTich ml</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="single-product-price">
+                                    <h2> @string.Format("{0:N0}", @ViewBag.ThucDon.GetGiaKhuyenMai) (VND)</h2>
+                                </div>
+                                <div class="single-product-desc">
+                                    <p>@ViewBag.ThucDon.MoTa</p>
+                                </div>
+                                @*<div class="single-product-info">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                    <a href="#"><i class="fa fa-print"></i></a>
+                                    <a href="#"><i class="fa fa-heart"></i></a>
+                                </div>*@
+                                @*<div class="single-product-quantity">
+                                    <p class="small-title">Quantity</p>
+                                    <div class="cart-quantity">
+                                        <div class="cart-plus-minus-button single-qty-btn">
+                                            <input class="cart-plus-minus sing-pro-qty" type="text" name="qtybutton" value="0">
+                                        </div>
+                                    </div>
+                                </div>*@
+
+                                <div class="single-product-add-cart">
+
+                                    @*<li class="order-button"><a><button type="button" title="Quick view" data-id="@item.MaThucDon"><i class="fa fa-shopping-cart"></i></button></a></li>*@
+
+                                    <a class="add-cart-text order-button" title="Add to cart"><button type="button" style="background-color : "title="Quick view" data-id="@ViewBag.ThucDon.MaThucDon">Add to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SINGLE-PRODUCT-DESCRIPTION END -->
+                    <!-- SINGLE-PRODUCT INFO TAB START -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="product-more-info-tab">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs more-info-tab">
+                                    <li class="active"><a href="#moreinfo" data-toggle="tab">more info</a></li>
+                                    <li><a href="#datasheet" data-toggle="tab">data sheet</a></li>
+                                    <li><a href="#review" data-toggle="tab">reviews</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="moreinfo">
+                                        <div class="tab-description">
+                                            <p>@ViewBag.ThucDon.MoreInfo</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="datasheet">
+                                        <div class="deta-sheet">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th style="text-align:center" scope="col">Thông Tin</th>
+                                                        <th style="text-align:center" scope="col">Sản Phẩm</thstyle="text-align:center">
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr>
+                                                        <td>Loại Sản Phẩm</td>
+                                                        <td>@ViewBag.ThucDon.TenLoai</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Thương Hiệu</td>
+                                                        <td>@ViewBag.ThucDon.TenThuongHieu</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Độ Cồn Bia</td>
+                                                        <td>@ViewBag.ThucDon.NongDo %</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Dung Tích</td>
+                                                        <td>@ViewBag.ThucDon.DungTich ml</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="review">
+                                        @{
+                                            foreach (var item in @ViewBag.ListDanhGia)
+                                            {
+                                                <div class="row tab-review-row">
+                                                    <div class="col-xs-5 col-sm-4 col-md-4 col-lg-3 padding-5">
+                                                        <div class="tab-rating-box">
+                                                            <span>@item.TenTaiKhoan</span>
+                                                            <div class="review-author-info">
+                                                                <strong><img src="~/user/img/profile/@item.AnhDaiDien" style="width: 70px; height:70px"></strong>
+                                                                <span>@item.NgayDanhGia</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-7 col-sm-8 col-md-8 col-lg-9 padding-5">
+                                                        <div class="write-your-review">
+                                                            <p><strong>@item.TenTaiKhoan 's Comment</strong></p>
+                                                            <p></p>
+                                                            <span class="usefull-comment">@item.LoiNhanXet</span>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            }
+                                        }
+
+                                    </div>
+                                    @using Microsoft.AspNetCore.Http
+                                    @if (Context.Session.GetString("USERNAME_SESSION") == null)
+                                    {
+                                        <a asp-controller="Login" asp-action="Index" class="write-review-btn"><i style="text-align:center" class="write-review-btn"></i> Login To Review</a>
+                                    }
+                                    else
+                                    {
+                                        <div class="col-sm-12">
+                                            @*<form asp-controller="DanhGia" asp-action="AddReview">*@
+                                            <input type="text" value="@ViewBag.ThucDon.MaThucDon" name="MaThucDon" id="MaThucDon" style="display:none">
+                                            <input type="text" value="@Context.Session.GetString("ID_SESSION")" name="MaTaiKhoan" id="MaTaiKhoan" hidden>
+                                            <input type="text" class="form-control form-control-sm" id="LoiNhanXet" name="LoiNhanXet" placeholder="Lời Nhân Xét Của Bạn">
+                                            <button id="commentt" name="commentt" type="button" class="checkout-button btn btn-default">Write your review! </button>
+                                            @*</form>*@
+
+                                        </div>
+
+
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SINGLE-PRODUCT INFO TAB END -->
+                    <!-- RELATED-PRODUCTS-AREA START -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="left-title-area">
+                                <h2 class="left-title">related products</h2>
+                            </div>
+                        </div>
+                        <div class="related-product-area featured-products-area">
+                            <div class="col-sm-12">
+                                <div class=" row">
+                                    <!-- RELATED-CAROUSEL START -->
+                                    <div class="related-product">
+
+                                        @{
+                                            foreach (var item in ViewBag.CungLoai)
+                                            {
+                                                <!-- SINGLE-PRODUCT-ITEM START -->
+                                                <div class="item">
+                                                    <div class="single-product-item">
+                                                        <div class="product-image">
+                                                            <a asp-controller="InfomationProduct" asp-action="Index" asp-route-id="@item.MaThucDon"><img src="~/user/products/@item.HinhAnh" alt="product-image" /></a>
+                                                        </div>
+                                                        <div class="product-info">
+                                                            <div class="customar-comments-box">
+                                                                <div class="rating-box">
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star"></i>
+                                                                    <i class="fa fa-star-half-empty"></i>
+                                                                </div>
+                                                                <div class="review-box">
+                                                                    <span>1 Review(s)</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="#">@item.TenLoai</a>
+                                                            <div class="price-box">
+                                                                <span class="price">@item.GetGiaKhuyenMai</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- SINGLE-PRODUCT-ITEM END -->
+                                            }
+                                        }
+
+                                        <!-- SINGLE-PRODUCT-ITEM START -->
+                                    </div>
+                                    <!-- RELATED-CAROUSEL END -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RELATED-PRODUCTS-AREA END -->
+                </div>
+                <!-- RIGHT SIDE BAR START -->
+
+            </div>
+        </div>
+    </section>

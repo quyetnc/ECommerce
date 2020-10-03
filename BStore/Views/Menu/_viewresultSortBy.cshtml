@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="row">
+    <ul class="gategory-product">
+        @{
+            foreach (var item in ViewBag.ListProduct)
+            {
+                <!-- SINGLE ITEM START -->
+                <li class="gategory-product-list col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-product-item">
+                        <div class="product-image">
+                            <a href="single-product.html"><img src="~/user/products/@item.HinhAnh" alt="product-image" style="width:225px ; height:225px" /></a>
+
+                            @{
+                                if (item.KhuyenMai != 0)
+                                {
+                                    <a href="single-product.html" class="new-mark-box">Sale - @item.KhuyenMai %</a>
+                                }
+                            }
+                            <div class="overlay-content">
+                                <ul>
+                                    <li><a asp-controller="InfomationProduct" asp-action="Index" asp-route-id="@item.MaThucDon"><button><i class="fa fa-search"></i></button></a></li>
+
+                                    <li class="order-button"><a><button type="button" title="Quick view" data-id="@item.MaThucDon"><i class="fa fa-shopping-cart"></i></button></a></li>
+                                    @*<li><a href="#" title="Quick view"><i class="fa fa-retweet"></i></a></li>
+                                    <li><a href="#" title="Quick view"><i class="fa fa-heart-o"></i></a></li>*@
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="customar-comments-box">
+
+                            </div>
+                            <a href="single-product.html">@item.TenThucDon</a>
+                            <div class="price-box">
+                                <span class="price">@String.Concat(string.Format("{0:N0}", @item.GetGiaKhuyenMai), "Đ")</span>
+
+                                @{
+                                    if (item.KhuyenMai != 0)
+                                    {
+                                        <span class="old-price">@String.Concat(string.Format("{0:N0}", @item.Gia), "Đ")</span>
+                                    }
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- SINGLE ITEM END -->
+            }
+        
+        }
+
+    </ul>
+</div>

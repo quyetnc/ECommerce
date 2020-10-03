@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <!-- HEADER-LEFT-MENU START -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="header-left-menu">
+                       <div id="SLLoginnnn">
+                           Số người đang online : 8
+                       </div>
+                        
+                    </div>
+                </div>
+                <!-- HEADER-LEFT-MENU END -->
+                <!-- HEADER-RIGHT-MENU START -->
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="header-right-menu">
+                        <nav>
+                           
+                       
+                            <ul class="list-inline">
+                                @using Microsoft.AspNetCore.Http
+                                @if (Context.Session.GetString("USERNAME_SESSION") == null)
+                                {
+                                    <li><a asp-controller="Login" asp-action="Index"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                                }
+                                else
+                                {
+                                    if (Context.Session.GetInt32("CREDENTITY_SESSION") == 2)
+                                    {
+                                        <li>
+                                            <a asp-controller="Profile" asp-action="Index"><i class="fas fa-user-alt"></i> Profile</a>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <li>
+                                            <a asp-controller="DashBoard" asp-action="Index"><i class="fas fa-user-plus"></i> Management</a>
+                                        </li>
+                                    }
+                                    <li>
+                                        <div >
+                                            Welcome <span style="color : red; font-size : 15px"> @Context.Session.GetString("USERNAME_SESSION")</span>
+                                        </div>
+                                     </li>
+                                    <li>
+                                        <a asp-controller="Login" asp-action="SignOut"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                                    </li>
+                                }
+
+                            </ul>
+                         
+                        </nav>
+                    </div>
+                </div>
+                <!-- HEADER-RIGHT-MENU END -->
+            </div>
+        </div>
+    </div>
+    <!-- HEADER-TOP END -->
+    <!-- HEADER-MIDDLE START -->
+    <section class="header-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- LOGO START -->
+                    <div class="logo">
+                        <a href="index.html"><img src="~/user/img/logo.png" alt="bstore logo" /></a>
+                    </div>
+                    <!-- LOGO END -->
+                    <!-- HEADER-RIGHT-CALLUS START -->
+                    <div class="header-right-callus">
+                        <h3>call us free</h3>
+                        <span>094-92-093-94</span>
+                    </div>
+                    <!-- HEADER-RIGHT-CALLUS END -->
+                    <!-- CATEGORYS-PRODUCT-SEARCH START -->
+                    <div class="categorys-product-search">
+                        <form asp-controller="menu" asp-action="Search" class="search-form-cat">
+                            <div class="search-product form-group">
+                                <input type="text" class="form-control search-form" name="Key" placeholder="Enter your search key ... " />
+                                <button class="search-button" value="Search" name="s" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- CATEGORYS-PRODUCT-SEARCH END -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER-MIDDLE END -->

@@ -1,0 +1,96 @@
+﻿@model BStore.Models.OderViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+<br />
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        <h5 class="card-header" style="text-align:center">Chi Tiết Giỏ Hàng</h5>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="bg-light">
+                        <tr class="border-0">
+                            <th>Mã sản phẩm</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Đơn giá</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model.ctgiohangs)
+                        {
+                            <tr>
+                                <td>
+                                    @item.masp
+                                </td>
+                                <td>
+                                    @item.tensp
+                                </td>
+                                <td>
+                                    @item.soluong
+                                </td>
+                                <td>
+                                    @item.gia
+                                </td>
+                                <td>
+                                    @item.thanhtien
+                                </td>
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        <div class="card-body p-0">
+            <div class="table-responsive" >
+                <table class="table">
+                    <thead class="bg-light">
+                        <tr class="border-0">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Tổng Tiền :</td>
+                            <td>
+                                <strong style="font-size: 25px">@Html.DisplayFor(model => model.giohang.TongCong)</strong>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Ngày Đặt @Html.DisplayFor(model => model.giohang.NgayDat) </td>
+                            <td>
+                                Trạng Thái :  @Html.DisplayFor(model => model.giohang.TrangThai)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <a asp-action="Index"><input type="button" class="btn btn-icon-split" value="Back" /></a>
+                            </td>
+                        </tr>
+                        </tr>
+                    </thead>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+﻿@model IEnumerable<BStore.Models.GioHang>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-sm-4">
+    <h1>Danh Sách Hoá Đơn</h1>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card" style="color:black">
+        @*<h5 class="card-header">Danh Sách User</h5>*@
+        <div class="card-body p-0">
+            <table class="table" border="1">
+                <thead style="background-color:wheat">
+                    <tr>
+                        <th>
+                            Mã hoá đơn
+                        </th>
+                        <th>
+                            Tên khách hàng
+                        </th>
+                        <th>
+                            Tổng cộng
+                        </th>
+                        <th>
+                            Ngày hoá đơn
+                        </th>
+                        <th>
+                            Trạng thái
+                        </th>
+                        <th>
+                            Mã tài khoản
+                        </th>
+                        <th>
+                            Hành động
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaGioHang)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaKhachHangNavigation.TenKhachHang)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TongCong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayDat)
+                        </td>
+                            @{ 
+                                if (item.TrangThai == 1)
+                                {
+                                   <td>Hoàn thành</td>
+                                }
+                                else
+                                {
+                                    <td>Chưa hoàn thành</td>
+                                }
+                            }
+
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaTaiKhoan)
+                        </td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.MaGioHang">
+                                <i class="fas fa-info-circle"></i>
+                            </a>|
+                            <a data-toggle="modal" data-target="@String.Concat("#exampleModal1",@item.MaGioHang)">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                            <div class="modal fade" id="@String.Concat("exampleModal1",@item.MaGioHang)" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="text-align:center">Xóa Hoá Đơn</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Bạn có muốn xóa hoá đơn @item.MaGioHang không ?
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <a asp-action="Delete" asp-route-id="@item.MaGioHang"> <button type="button" class="btn btn-primary">Xóa Hoá Đơn</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @{
+                                if (item.TrangThai == 0)
+                                {
+                                    <a asp-action="ChangedStatus" asp-route-id="@item.MaGioHang" onclick="connfirm()">
+                                        <i class="fas fa-check"></i>
+                                    </a>
+                                }
+                            }
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    function connfirm() {
+        if (confirm("Bạn có chăc muôn thay đổi trạng thái đơn hàng?")) {
+            $.ajax({
+                url: "/OrderManager/ChangedStatus",
+                data: id,
+                success: function (data) { }
+            });
+        }
+        return false;
+    }
+</script>

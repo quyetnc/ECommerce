@@ -1,0 +1,45 @@
+﻿@model BStore.Models.BannerQuangCao
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<h4> </h4>
+<hr />
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="col-7 offset-1">
+            <h1>Chỉnh Sửa Banner</h1>
+        </div>
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LinkBanner" class="control-label">Hình Ảnh</label>
+                <input asp-for="LinkBanner" class="form-control-file" name="Ffile" type="file" multiple />
+                <span asp-validation-for="LinkBanner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TitleBanner" class="control-label">Tiêu Đề Banner</label>
+                <input asp-for="TitleBanner" class="form-control" />
+                <span asp-validation-for="TitleBanner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContentBanner" class="control-label">Nội Dung Banner</label>
+                <input asp-for="ContentBanner" class="form-control" />
+                <span asp-validation-for="ContentBanner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

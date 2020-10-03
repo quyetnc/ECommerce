@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+
+@Html.Partial("~/Views/Layout/AdminOK/Header.cshtml")
+
+
+<body>
+
+    <!-- ============================================================== -->
+    <!-- end left sidebar -->
+    <!-- ============================================================== -->
+    @Html.Partial("~/Views/Layout/AdminOK/Content.cshtml")
+    <!-- ============================================================== -->
+    <!-- wrapper  -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        @RenderBody()
+        <!-- footer -->
+        <!-- ============================================================== -->
+        @Html.Partial("~/Views/Layout/AdminOK/FooterAndJS.cshtml")
+
+</body>
+
+</html>

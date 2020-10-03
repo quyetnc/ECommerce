@@ -1,0 +1,56 @@
+﻿@model BStore.Models.TaiKhoan
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-6 offset-3">
+    <h1 style="text-align:center">Thông Tin Tài Khoản</h1>
+    <hr />
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="card">
+            @*<h5 class="card-header">Danh Sách User</h5>*@
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table">
+                       
+                        <tbody style="color:black">
+                            <tr>
+
+                                <td> Tên tài khoản</td>
+                                <td>@Html.DisplayFor(model => model.TenTaiKhoan)</td>
+                            </tr>
+                            <tr>
+
+                                <td>  Ảnh đại diện</td>
+                                <td> <img src="~/user/avatar/@Model.AnhDaiDien" style="height:70px; width:70px;" /></td>
+                            </tr>
+                            <tr>
+
+                                <td>Email</td>
+                                <td>@Html.DisplayFor(model => model.Email)</td>
+                            </tr>
+                            <tr>
+
+                                <td>Trạng thái</td>
+                                <td>@Html.DisplayFor(model => model.DangHoatDong)</td>
+                            </tr>
+                            <tr>
+
+                                <td> Quyền hạn</td>
+                                <td> @Model.MaPhanQuyen</td>
+                            </tr>
+                            <tr>
+
+                                <td style="float:right"> <a asp-action="Edit" asp-route-id="@Model.MaTaiKhoan"><i style="font-size:30px" class="fas fa-edit"></i></a></td>
+                                <td> <a asp-action="Index"><input type="button" value="Back" /></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>

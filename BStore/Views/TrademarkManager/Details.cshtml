@@ -1,0 +1,33 @@
+﻿@model BStore.Models.ThuongHieu
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-6 offset-3" style="color:black">
+    <h1>Chi Tiết Thương Hiệu</h1>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">
+            Tên thương hiệu
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.TenTH)
+        </dd>
+        <dt class="col-sm-4">
+            Logo
+        </dt>
+        <dd class="col-sm-8">
+            <img src="~/user/trademark/@Model.HinhAnh" style="width:70px;height:70px" />
+        </dd>
+        <dt class="col-sm-4">
+            <a asp-action="Edit" asp-route-id="@Model.MaTH"><input type="button" class="btn btn-primary" value="Edit" /></a>
+        </dt>
+        <dd class="col-sm-8">
+            <a asp-action="Index"><input type="button" class="btn btn-primary" value="Back" /></a>
+        </dd>
+    </dl>
+</div>

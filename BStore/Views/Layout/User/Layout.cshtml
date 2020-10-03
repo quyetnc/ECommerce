@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+<!doctype html>
+
+<html lang="en">
+@Html.Partial("~/Views/Layout/User/HeaderImport.cshtml")
+
+<body onload="OnLoad()">
+    @Html.Partial("~/Views/Layout/User/TopHeader.cshtml")
+
+    <!-- MAIN-MENU-AREA START -->
+    @Html.Partial("~/Views/Layout/User/Header.cshtml")
+    <!-- MAIN-MENU-AREA END -->
+    <!-- MAIN-CONTENT-SECTION START -->
+    <section class="main-content-section">
+        @RenderBody()
+    </section>
+    <!-- MAIN-CONTENT-SECTION END -->
+   
+    <!-- FOOTER-TOP-AREA START -->
+    @Html.Partial("~/Views/Layout/User/Footer.cshtml")
+
+    <!-- JS
+    ===============================================-->
+    @Html.Partial("~/Views/Layout/User/JS.cshtml")
+</body>
+</html>
+
+<script>
+    function OnLoad() {
+        //alert('load');
+        $.ajax({
+            type: "POST",
+            url: '/SLOnline/SL',
+            data: {},
+            success: function (response) {
+                //alert(response);
+                //$(".dropdown-menu #ketqua").html(response);
+                $("#SLLoginnnn").html(response);
+            }
+        });
+    }
+</script>

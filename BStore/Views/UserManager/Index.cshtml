@@ -1,0 +1,191 @@
+﻿@model IEnumerable<BStore.Models.TaiKhoan>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-sm-4">
+    <h1>Danh Sách User</h1>
+    <a asp-action="Create"><i class="fas fa-plus-square" style="font-size:40px"></i></a>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        @*<h5 class="card-header">Danh Sách User</h5>*@
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead style="background-color:wheat">
+                        <tr class="border-0">
+                            <th>
+                                Tên Tài Khoản
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Email)
+                            </th>
+                            <th>
+                                Ảnh Đại Diện
+                            </th>
+                            <th>
+                                Trạng Thái
+                            </th>
+                            <th>
+                                Loại Tài Khoản
+                            </th>
+                            <th>
+                                Option
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody style="color:black">
+                        @foreach (var item in ViewBag.listuser)
+                        {
+                            <tr>
+                                <td>
+                                    @item.TenTaiKhoan
+                                </td>
+                                <td>
+                                    @item.Email
+                                </td>
+                                <td>
+                                    <img src="~/user/avatar/@item.AnhDaiDien" style="height:70px; width:70px;" />
+                                </td>
+
+                                @{
+
+                                    if (@item.DangHoatDong == 1)
+                                    {
+                                        <td> Đang Hoạt Động</td>
+                                    }
+                                    else
+                                    {
+                                        <td> Offine</td>
+                                    }
+                                }
+
+                                <td>
+                                    @item.MaPhanQuyenNavigation.QuyenHan
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.MaTaiKhoan">
+                                        <i class="fas fa-edit"></i>
+                                    </a>|
+                                    <a asp-action="Details" asp-route-id="@item.MaTaiKhoan">
+                                        <i class="fas fa-info-circle"></i>
+                                    </a>|
+                                    <a data-toggle="modal" data-target="@String.Concat("#exampleModal1",@item.MaTaiKhoan)">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                    <div class="modal fade" id="@String.Concat("exampleModal1",@item.MaTaiKhoan)" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel" style="text-align:center">Xóa Tài Khoản</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Bạn có muốn xóa tài khoản @item.TenTaiKhoan không ?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                    <a asp-action="Delete" asp-route-id="@item.MaTaiKhoan"> <button type="button" class="btn btn-primary">Xóa Tài Khoản</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                        @*<tr>
+                                <td>1</td>
+                                <td>
+                                    <div class="m-r-10"><img src="assets/images/product-pic.jpg" alt="user" class="rounded" width="45"></div>
+                                </td>
+                                <td>Product #1 </td>
+                                <td>id000001 </td>
+                                <td>20</td>
+                                <td>$80.00</td>
+                                <td>27-08-2018 01:22:12</td>
+                                <td>Patricia J. King </td>
+                                <td><span class="badge-dot badge-brand mr-1"></span>InTransit </td>
+                            </tr>*@
+
+                        @*<tr>
+                                <td colspan="9"><a href="#" class="btn btn-outline-light float-right">View Details</a></td>
+                            </tr>*@
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script>
+        function deleteItem() {
+
+            if (confirm("Are you sure?")) {
+                $.ajax({
+                    url: "/UserManager/Delete",
+                    data: id,
+                    success: function (data) { }
+                });
+            }
+            return false;
+        }
+    </script>*@
+@*<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenTaiKhoan)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnhDaiDien)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DangHoatDong)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MaPhanQuyenNavigation)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenTaiKhoan)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MatKhau)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnhDaiDien)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DangHoatDong)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaPhanQuyenNavigation.MaPhanQuyen)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaTaiKhoan">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.MaTaiKhoan">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.MaTaiKhoan">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@

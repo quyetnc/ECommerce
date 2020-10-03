@@ -1,0 +1,77 @@
+﻿@model IEnumerable<BStore.Models.LoaiThucDon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-sm-4">
+    <h1>Danh Sách Loại</h1>
+    <a asp-action="Create"><i class="fas fa-plus-square" style="font-size:40px"></i></a>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        <div class="card-body p-0">
+            <table class="table" border="1">
+                <thead style="background-color:wheat">
+                    <tr>
+                        <th>
+                            Tên Loại
+                        </th>
+                        <th>
+                            Hành động
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TenLoai)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.MaLoai">
+                                    <i class="fas fa-edit"></i>
+                                </a>|
+                                <a asp-action="Details" asp-route-id="@item.MaLoai">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>|
+                                <a data-toggle="modal" data-target="@String.Concat("#exampleModal1",@item.MaLoai)">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+                                <div class="modal fade" id="@String.Concat("exampleModal1",@item.MaLoai)" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel" style="text-align:center">Xóa Loại</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bạn có muốn xóa thương hiệu @item.TenLoai không ?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <a asp-action="Delete" asp-route-id="@item.MaLoai"> <button type="button" class="btn btn-primary">Xóa Loại</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

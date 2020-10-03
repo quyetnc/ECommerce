@@ -1,0 +1,100 @@
+﻿@model IEnumerable<BStore.Models.ThucDon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-sm-4">
+    <h1>Danh Sách Sản Phẩm</h1>
+    <a asp-action="Create"><i class="fas fa-plus-square" style="font-size:40px"></i></a>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        @*<h5 class="card-header">Danh Sách User</h5>*@
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table" border="1">
+                    <thead style="background-color:wheat">
+                        <tr class="border-0">
+                            <th>
+                                Mã Loại
+                            </th>
+                            <th>
+                                Tên sản phẩm
+                            </th>
+                            <th>
+                                Hình ảnh
+                            </th>
+                            <th>
+                                Giá
+                            </th>
+                            <th>
+                                Khuyến mãi
+                            </th>
+                            <th>
+                                Mô tả
+                            </th>
+                            <th>
+                                Lượt xem
+                            </th>
+                            <th>
+                                Lượt mua
+                            </th>
+                            <th>
+                                Hành động
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody style="color:black">
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>
+                                @item.MaLoai
+                            </td>
+                            <td>
+                                @item.TenThucDon
+                            </td>
+                            <td>
+                                <img src="~/user/products/@item.HinhAnh" style="height:70px; width:70px;" />
+                            </td>
+                            <td>
+                                @item.Gia
+                            </td>
+                            <td>
+                                @item.KhuyenMai
+                            </td>
+                            <td style="width:50px;height:auto">
+                                @item.MoTa
+                            </td>
+                            <td>
+                                @item.LuotXem
+                            </td>
+                            <td>
+                                @item.LuotMua
+                            </td>
+
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.MaThucDon">
+                                    <i class="fas fa-edit"></i>
+                                </a>|
+                                <a asp-action="Details" asp-route-id="@item.MaThucDon">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>|
+                                <a asp-action="Delete" asp-route-id="@item.MaThucDon">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

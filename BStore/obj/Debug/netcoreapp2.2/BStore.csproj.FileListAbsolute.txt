@@ -1,0 +1,354 @@
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.deps.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.dev.json
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.dll
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.pdb
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.dll
+C:\Users\demon\Desktop\NetCore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.pdb
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfoInputs.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfo.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.input.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.output.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorCoreGenerate.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Footer.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Header.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\JS.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Layout.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\TopHeader.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.Views.pdb
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.dll
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.pdb
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CopyComplete
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\HeaderImport.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Footer.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Head.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Header.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\JS.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Layout.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\LeftMenu.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DashBoard\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_resultCategory.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\InfomationProduct\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Layout.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Header.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\JS.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DanhGia\_reviewresult.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\_Layout.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\content.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\Header.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\FooterAndJS.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csprojAssemblyReference.cache
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Create.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Delete.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Details.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Edit.cshtml.g.cs
+C:\Users\demon\Desktop\NetCore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Index.cshtml.g.cs
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.deps.json
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.json
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.dev.json
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.dll
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.pdb
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.dll
+E:\BackUp12hBStore\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.pdb
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csprojAssemblyReference.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CoreCompileInputs.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfoInputs.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfo.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.input.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.output.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorCoreGenerate.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Checkout\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DanhGia\_reviewresult.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DashBoard\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\InfomationProduct\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\content.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\FooterAndJS.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\Header.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\_Layout.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Footer.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Head.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Header.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\JS.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Layout.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\LeftMenu.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Header.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\JS.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Layout.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Footer.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Header.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\HeaderImport.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\JS.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Layout.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\TopHeader.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\SignUp.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_resultCategory.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cache
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.Views.pdb
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.dll
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.pdb
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CopyComplete
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Index.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Create.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Delete.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Details.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Edit.g.cshtml.cs
+E:\BackUp12hBStore\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Index.g.cshtml.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.deps.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.dev.json
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.dll
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.pdb
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.dll
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.pdb
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfoInputs.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfo.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.input.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.output.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorCoreGenerate.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DanhGia\_reviewresult.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DashBoard\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\InfomationProduct\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\content.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\FooterAndJS.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\Header.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\_Layout.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Footer.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Head.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Header.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\JS.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Layout.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\LeftMenu.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Header.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\JS.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Layout.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Footer.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Header.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\HeaderImport.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\JS.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Layout.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\TopHeader.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_resultCategory.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.Views.pdb
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.dll
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.pdb
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CopyComplete
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_viewresultSortBy.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Create.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Delete.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Details.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Edit.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Index.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\History.cshtml.g.cs
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csprojAssemblyReference.cache
+C:\Users\demon\Downloads\BStore (1)\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\SLOnline\_SLOnline.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.deps.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.runtimeconfig.dev.json
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.dll
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.pdb
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.dll
+E:\Net Core\Project Complete\BStore\BStore\bin\Debug\netcoreapp2.2\BStore.Views.pdb
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfoInputs.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.AssemblyInfo.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CoreCompileInputs.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorAssemblyInfo.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.input.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.TagHelpers.output.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorCoreGenerate.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\BannerQuangCaos\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\History.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CategoryManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Checkout\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\CustomerManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DanhGia\_reviewresult.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\DashBoard\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\InfomationProduct\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\content.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\FooterAndJS.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\Header.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\AdminOK\_Layout.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Footer.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Head.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Header.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\JS.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\Layout.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Admin\LeftMenu.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Header.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\JS.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\Login\Layout.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Footer.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Header.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\HeaderImport.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\JS.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\Layout.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Layout\User\TopHeader.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Login\SignUp.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_resultCategory.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Menu\_viewresultSortBy.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\OrderManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\ProductManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\SLOnline\_SLOnline.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\TrademarkManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Create.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Delete.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Details.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Edit.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\UserManager\Index.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.RazorTargetAssemblyInfo.cs
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.Views.pdb
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.dll
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.pdb
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.genruntimeconfig.cache
+E:\Net Core\Project Complete\BStore\BStore\obj\Debug\netcoreapp2.2\BStore.csproj.CopyComplete

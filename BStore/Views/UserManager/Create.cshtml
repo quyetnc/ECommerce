@@ -1,0 +1,56 @@
+﻿@model BStore.Models.TaiKhoan
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+
+
+
+<hr />
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="col-7 offset-3">
+            <h1>Thêm Tài Khoản</h1>
+        </div>
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TenTaiKhoan" class="control-label">Tên tài khoản</label>
+                <input asp-for="TenTaiKhoan" class="form-control" />
+                <span asp-validation-for="TenTaiKhoan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label">Mật khẩu</label>
+                <input asp-for="MatKhau" class="form-control" type="password" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaPhanQuyen" class="control-label">Mã phân quyền(1: Admin, 2: User)</label>
+                <select asp-for="MaPhanQuyen" class="form-control" asp-items="ViewBag.MaPhanQuyen"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnhDaiDien" class="control-label">Ảnh đại diện:</label>
+                <input asp-for="AnhDaiDien" class="form-control-file" name="Ffile" type="file" multiple />
+                <span asp-validation-for="AnhDaiDien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DangHoatDong" class="control-label"></label>
+                <input asp-for="DangHoatDong" class="form-control" />
+                <span asp-validation-for="DangHoatDong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <input asp-action="Index" value="Back" type="button" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+

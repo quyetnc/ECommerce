@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "History";
+    Layout = "~/Views/Layout/User/Layout.cshtml";
+}
+<div class="clearfix" style="padding:3px"></div>
+
+<div class="container" style="background:#fff;min-height:550px;width:90%;margin:0 auto">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="center-text">Lịch sử đặt hàng</h1>
+        </div>
+        <br />
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <table class="table">
+                <thead class="thead-light">
+
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Tên sản phẩm</th>
+                        <th scope="col">Giá</th>
+                        <th scope="col">Số lượng đặt hàng</th>
+
+                        <th scope="col">Ngày đặt</th>
+                        <th scope="col">Trạng thái</th>
+                        <th scope="col">Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var i = 1;
+                        foreach (var item in ViewBag.ListOrder)
+                        {
+
+                            //                    ublic int id { get; set; }
+                            //public int? masp { get; set; }
+                            //public string tensp { get; set; }
+                            //public int? soluong { get; set; }
+                            //public double? gia { get; set; }
+                            //public double? thanhtien { get; set; }
+                            //public DateTime? ngaydat { get; set; }
+                            //public int? trangthai { get; set; }
+                            //public int? matk { get; set; }
+
+                            <tr>
+                                <th scope="row">@i</th>
+                                <td>@item.tensp</td>
+                                <td>@String.Format("{0:N0}", @item.gia)<u>đ</u> </td>
+                                <td>@item.soluong</td>
+
+                                <td>@item.ngaydat</td>
+                                <td>
+                                    @{
+                                        if (item.trangthai == 0)
+                                        {
+                                            <span style="color:red;"><b>Đang xử lý...</b></span>
+                                        }
+                                        else
+                                        {
+                                            <span style="color:green;"><b>Đã giao</b></span>
+                                        }
+                                    }
+                                </td>
+                                <td>@String.Format("{0:N0}", @item.thanhtien)<u>đ</u> </td>
+                            </tr>
+                            i++;
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

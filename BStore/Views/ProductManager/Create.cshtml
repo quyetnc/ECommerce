@@ -1,0 +1,82 @@
+﻿@model BStore.Models.ThucDon
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<h4> </h4>
+<hr />
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="col-7 offset-3">
+            <h1>Thêm Sản Phẩm</h1>
+        </div>
+        <form asp-action="Create"  enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TenThucDon" class="control-label">Tên sản phẩm</label>
+                <input asp-for="TenThucDon" class="form-control" />
+                <span asp-validation-for="TenThucDon" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                <div class="col form-group">
+                    <label asp-for="HinhAnh" class="control-label">Hình ảnh</label>
+                    <input asp-for="HinhAnh"  name="Ffile" class="form-control-file" type="file" multiple />
+                    <span asp-validation-for="HinhAnh" class="text-danger"></span>
+                </div>
+                <div class="col form-group">
+                    <label asp-for="MaLoai" class="control-label">Loại Sản Phẩm</label>
+                    <select asp-for="MaLoai" class="form-control" asp-items="ViewBag.MaLoai"></select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaTH" class="control-label">Mã thương hiệu</label>
+                <select asp-for="MaTH" class="form-control" asp-items="ViewBag.MaTH"></select>
+            </div>
+            <div class="form-row">
+                <div class="col form-group">
+                    <label asp-for="Gia" class="control-label">Giá</label>
+                    <input asp-for="Gia" class="form-control" />
+                    <span asp-validation-for="Gia" class="text-danger"></span>
+                </div>
+                <div class="col form-group">
+                    <label asp-for="KhuyenMai" class="control-label">Khuyến mãi</label>
+                    <input asp-for="KhuyenMai" class="form-control" />
+                    <span asp-validation-for="KhuyenMai" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col form-group">
+                    <label asp-for="MaNongDo" class="control-label">Nồng độ</label>
+                    <select asp-for="MaNongDo" class="form-control" asp-items="ViewBag.MaNongDo"></select>
+                </div>
+                <div class="col form-group">
+                    <label asp-for="MaDungTich" class="control-label">Dung tích</label>
+                    <select asp-for="MaDungTich" class="form-control" asp-items="ViewBag.MaDungTich"></select>
+                </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MoTa" class="control-label">Mô tả</label>
+                    <input asp-for="MoTa" class="form-control" />
+                    <span asp-validation-for="MoTa" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MoreInfo" class="control-label">Thông tin thêm</label>
+                    <input asp-for="MoreInfo" class="form-control" />
+                    <span asp-validation-for="MoreInfo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <a asp-action="Index"><input type="button" value="Back" class="btn btn-primary" /></a>
+                </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+</div>
+

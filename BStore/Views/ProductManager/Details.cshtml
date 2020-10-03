@@ -1,0 +1,94 @@
+﻿@model BStore.Models.ThucDon
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Layout/AdminOK/_Layout.cshtml";
+}
+
+<h1> </h1>
+
+<div class="col-6 offset-3" style="background-color:white">
+    <h1>Chi tiết sản phẩm</h1>
+    <hr />
+    <dl class="row" style="color:black;background-color:white">
+        <dt class="col-sm-4">
+            Tên sản phẩm
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.TenThucDon)
+        </dd>
+        <dt class="col-sm-4">
+            Hình ảnh
+        </dt>
+        <dd class="col-sm-8">
+            <img src="~/user/products/@Model.HinhAnh" style="width:70px;height:70px" />
+        </dd>
+        <dt class="col-sm-4">
+            Giá
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.Gia)
+        </dd>
+        <dt class="col-sm-4">
+            Khuyến mãi
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.KhuyenMai)
+        </dd>
+        <dt class="col-sm-4">
+            Mô tả
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt class="col-sm-2">
+            Thông tin
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MoreInfo)
+        </dd>
+        <dt class="col-sm-4">
+            Lượt xem
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.LuotXem)
+        </dd>
+        <dt class="col-sm-2">
+            Luợt mua
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LuotMua)
+        </dd>
+        <dt class="col-sm-4">
+            Nồng độ
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.NongDoNavigation.NongDoValue)
+        </dd>
+        <dt class="col-sm-4">
+            Dung tích
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.DungTichNavigation.DungTichValue)
+        </dd>
+        <dt class="col-sm-4">
+            Loại
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.MaLoaiNavigation.TenLoai)
+        </dd>
+        <dt class="col-sm-4">
+            Thương hiệu
+        </dt>
+        <dd class="col-sm-8">
+            @Html.DisplayFor(model => model.MaTHNavigation.TenTH)
+        </dd>
+        <dt class="col-sm-4">
+            <a asp-action="Edit" asp-route-id="@Model.MaThucDon"><input type="button" class="btn btn-primary" value="Edit" /></a>
+        </dt>
+        <dd class="col-sm-8">
+            <a asp-action="Index"><input class="btn btn-primary" type="button" value="Back" /></a>
+        </dd>
+    </dl>
+</div>
+
