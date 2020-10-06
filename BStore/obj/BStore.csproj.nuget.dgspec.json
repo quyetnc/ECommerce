@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj": {}
+    "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\BStore.csproj": {}
   },
   "projects": {
-    "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj": {
+    "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\BStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj",
+        "projectUniqueName": "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\BStore.csproj",
         "projectName": "BStore",
-        "projectPath": "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj",
+        "projectPath": "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\BStore.csproj",
         "packagesPath": "C:\\Users\\QUYET\\.nuget\\packages\\",
-        "outputPath": "E:\\Net Core\\Project Complete\\BStore\\BStore\\obj\\",
+        "outputPath": "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\QUYET\\AppData\\Roaming\\NuGet\\NuGet.Config",

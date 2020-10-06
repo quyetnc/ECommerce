@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2itr2lSfwOo00w8SKYCE63thtz//RyvF0f6pUzn8QnEUH+gQ7ZL0BMYr/2o9yip64uoYHoE3GxHpTKrRdM1mQ==",
+  "dgSpecHash": "HaMgU4rkkbGHYuEhlasnVOUEOzIUC1UZOCrBF/el1WrZfXURSZBiq5MzSZRRnqDd2zWUv6JRpGiEmGq27mJE/g==",
   "success": true,
-  "projectFilePath": "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj",
+  "projectFilePath": "C:\\Users\\QUYET\\Desktop\\NCQ\\ECommerce\\BStore\\BStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QUYET\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.8\\microsoft.aspnetcore.authentication.facebook.3.1.8.nupkg.sha512",
     "C:\\Users\\QUYET\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

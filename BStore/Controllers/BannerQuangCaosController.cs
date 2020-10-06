@@ -111,6 +111,7 @@ namespace BStore.Controllers
             {
                 try
                 {
+                    int q = 1999;
                     string s = "";
                     if (Ffile != null)
                     {
