@@ -5904,19 +5904,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\QUYET\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj",
+      "projectUniqueName": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj",
       "projectName": "BStore",
-      "projectPath": "E:\\Net Core\\Project Complete\\BStore\\BStore\\BStore.csproj",
-      "packagesPath": "C:\\Users\\QUYET\\.nuget\\packages\\",
-      "outputPath": "E:\\Net Core\\Project Complete\\BStore\\BStore\\obj\\",
+      "projectPath": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\QUYET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
