@@ -120,6 +120,9 @@ namespace BStore.Migrations
                     b.Property<DateTime?>("NgayDat")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("ThanhToan")
+                        .HasColumnType("int");
+
                     b.Property<double?>("TongCong")
                         .HasColumnType("float");
 
@@ -193,6 +196,21 @@ namespace BStore.Migrations
                     b.HasKey("MaNongDo");
 
                     b.ToTable("NongDo");
+                });
+
+            modelBuilder.Entity("BStore.Models.Paypal.USD", b =>
+                {
+                    b.Property<int>("MaUSD")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<double>("TyGiaUSD")
+                        .HasColumnType("float");
+
+                    b.HasKey("MaUSD");
+
+                    b.ToTable("USD");
                 });
 
             modelBuilder.Entity("BStore.Models.PhanQuyen", b =>

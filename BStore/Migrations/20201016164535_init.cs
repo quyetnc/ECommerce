@@ -222,7 +222,8 @@ namespace BStore.Migrations
                     TongCong = table.Column<double>(nullable: true),
                     NgayDat = table.Column<DateTime>(nullable: true),
                     TrangThai = table.Column<int>(nullable: true),
-                    MaTaiKhoan = table.Column<int>(nullable: true)
+                    MaTaiKhoan = table.Column<int>(nullable: true),
+                    ThanhToan = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {

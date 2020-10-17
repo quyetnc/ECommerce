@@ -48,14 +48,22 @@ namespace BStore.Controllers
                 //CommonConstant.ACCID_SESSION = HttpContext.Session.GetString("ACCID_SESSION");
                 if (Convert.ToInt32(tk.MaPhanQuyen) == 2)
                 {
-                    return RedirectToAction("Index", "Home");
+                    var gioHang = SessionHelper.Get<List<CartItem>>(HttpContext.Session, "cart");
+                    
+                    if (gioHang != null)
+                    {
+                        return RedirectToAction("Index", "Checkout");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                   
                 }
                 else
                 {
                     return RedirectToAction("Index", "DashBoard");
                 }
-
-                
             }
         }
 

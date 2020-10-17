@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BStore.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20201003143634_init")]
+    [Migration("20201016164535_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -121,6 +121,9 @@ namespace BStore.Migrations
 
                     b.Property<DateTime?>("NgayDat")
                         .HasColumnType("datetime2");
+
+                    b.Property<int?>("ThanhToan")
+                        .HasColumnType("int");
 
                     b.Property<double?>("TongCong")
                         .HasColumnType("float");

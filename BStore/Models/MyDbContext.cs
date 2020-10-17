@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BanHangNetCoreNhom123.Models;
+using BStore.Models.Paypal;
 
 namespace BStore.Models
 {
@@ -27,6 +28,7 @@ namespace BStore.Models
         public virtual DbSet<TaiKhoan> TaiKhoan { get; set; }
         public virtual DbSet<TinhThanh> TinhThanh { get; set; }
         public virtual DbSet<ThucDon> ThucDon { get; set; }
+        public virtual DbSet<USD> USD { get; set; }
 
     }
 }
