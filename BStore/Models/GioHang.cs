@@ -17,6 +17,7 @@ namespace BStore.Models
         public DateTime? NgayDat { get; set; }
         public int? TrangThai { get; set; }
         public int? MaTaiKhoan { get; set; }
+        public int? ThanhToan { get; set; }
 
         [ForeignKey("MaKhachHang")]
         public KhachHang MaKhachHangNavigation { get; set; }
