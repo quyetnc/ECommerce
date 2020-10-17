@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E06n5OVzOIeDX7Be5p5TTB/leaoXUSdGxAuFO2XIL1FXQbE/48cuf/SFvRQhvJjNemlLDYbr3T+Cvb8+oFYkww==",
+  "dgSpecHash": "NhDM1PD8WvqxSRKBH+smReTPmFn+/3nl1R7Ax2UHWrFOqVXa6f12P2bQlbZZFsM97N3WKU9Bho3ZUnyXEBb6JQ==",
   "success": true,
-  "projectFilePath": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\BStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\braintreehttp-dotnet\\0.3.0\\braintreehttp-dotnet.0.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\3.1.8\\microsoft.aspnetcore.authentication.facebook.3.1.8.nupkg.sha512",

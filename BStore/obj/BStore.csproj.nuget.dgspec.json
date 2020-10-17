@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\BStore.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\BStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\BStore.csproj",
         "projectName": "BStore",
-        "projectPath": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\BStore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\BStore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB\\__BStore\\ECommerce\\BStore\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\ECommerce\\BStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

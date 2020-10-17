@@ -26,20 +26,20 @@
                         Đăng ký thành công. Bạn có thể đăng nhập
                     </div>
                 }<!--Success sign up-->
-            <form class="user" method="post" asp-controller="Login" asp-action="SignIn">
-                <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Nhập username..." name="username">
-                </div>
-                <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" id="exampleInputPassword" placeholder="Mật khẩu" name="password">
-                </div>
-                <div class="form-group">
-                    <label class="custom-control custom-checkbox">
-                        <input class="custom-control-input" type="checkbox"><span class="custom-control-label">Remember Me</span>
-                    </label>
-                </div>
-                    <input  class="btn btn-primary btn-lg btn-block" type="submit" value="Đăng nhập">
-            </form>
+                <form class="user" method="post" asp-controller="Login" asp-action="SignIn">
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Nhập username..." name="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control form-control-lg" id="exampleInputPassword" placeholder="Mật khẩu" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox"><span class="custom-control-label">Remember Me</span>
+                        </label>
+                    </div>
+                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Đăng nhập">
+                </form>
             </div>
             <div class="card-footer bg-white p-0  ">
                 <div class="card-footer-item card-footer-item-bordered">
@@ -47,9 +47,17 @@
                 </div>
                 <div class="card-footer-item card-footer-item-bordered">
                     <a href="#" class="footer-link">Forgot Password</a>
+
                 </div>
             </div>
         </div>
+        <div class="login-box">
+            <h2>Social Login Button</h2>
+            <a href="#" class="social-button" id="facebook-connect"> <span>Connect with Facebook</span></a>
+            <a href="#" class="social-button" id="google-connect"> <span>Connect with Google</span></a>
+        </div>
+        </div>
+
     </div>
 
 
